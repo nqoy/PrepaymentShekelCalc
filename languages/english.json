@@ -1,0 +1,24 @@
+{
+    "fields": {
+        "ORIGINAL_LOAN": "Original Loan Amount:",
+        "REMAINING_BALANCE": "Remaining Balance:",
+        "MONTHS_LEFT": "Months Left:",
+        "NOMINAL_ANNUAL_INTEREST": "Nominal Annual Interest Rate (%):",
+        "ADJUSTED_ANNUAL_INTEREST": "Adjusted Annual Interest Rate (%):",
+        "MARKET_NOMINAL_INTEREST": "Market Nominal Interest Rate (%):",
+        "MARKET_ADJUSTED_INTEREST": "Market Adjusted Interest Rate (%):",
+        "CALCULATE": "Calculate",
+        "RESULTS": "Results:",
+        "EXPLANATION": "Explanation:"
+    },
+    "messages": {
+        "error": "Please enter valid numeric values.",
+        "save": "You will save money by prepaying!",
+        "break_even": "Prepaying will break even, no loss or gain.",
+        "lose": "You will lose money by prepaying.",
+        "savings": "Savings: {}",
+        "fees_section": "Fees Explanation",
+        "discount_fee_explanation": "The discount fee is the difference between the present value of the loan and the market value. It represents the fee for repaying early.",
+        "fees_details": "Discount Fee Calculation: The difference between the market present value and the loan present value is added as a fee. In this case, it is calculated based on the adjusted market interest rate."
+    }
+}
