@@ -8,7 +8,7 @@ from enums.Language import Language
 
 class LoanCalculator:
     ADMIN_FEE = 60
-    PADDING = 10
+    PADDING = 15
     ENTRY_WIDTH = 30
     WINDOW_WIDTH = 500
     WINDOW_HEIGHT = 600
@@ -95,7 +95,7 @@ class LoanCalculator:
                 field_frame = ttk.Frame(fields_frame)
                 field_frame.pack(pady=5, fill="x")
                 
-                label = ttk.Label(field_frame, text="", width=20, anchor="e")
+                label = ttk.Label(field_frame, text="", width=30, anchor="e")
                 label.pack(side=tk.LEFT, padx=(0, self.PADDING))
                 self.label_widgets.append((field, label))
                 
